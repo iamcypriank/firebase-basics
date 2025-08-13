@@ -2,7 +2,7 @@ function App() {
 
   return (
     <>
-    <h1>hello react world</h1>
+    <h1 className="text-5xl">hello react world</h1>
     </>
   )
 }
