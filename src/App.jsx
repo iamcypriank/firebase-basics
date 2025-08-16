@@ -1,9 +1,13 @@
-function App() {
+import { RouterProvider } from "react-router-dom"
+import { router } from "./routes/router"
+import AuthContextProvider from "./contexts/AuthContextProvider"
 
+
+function App() {
   return (
-    <>
-    <h1 className="text-5xl">hello react world</h1>
-    </>
+    <AuthContextProvider>
+      <RouterProvider router={router} />
+    </AuthContextProvider>
   )
 }
 
