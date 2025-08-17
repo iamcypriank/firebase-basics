@@ -1,5 +1,4 @@
-export default function Button({ type="button", variant, children , onClick  }){
-
+export default function Button({ type="button", variant, children , onClick, ariaLabel }){
 
     let style = '';
     if(variant=='primary') style='px-8 py-2 bg-blue-600 text-white font-medium rounded-md';
@@ -8,6 +7,7 @@ export default function Button({ type="button", variant, children , onClick  }){
 
     return ( 
     <button
+    aria-label={ariaLabel}
     className={`${style}`} 
     onClick={(e)=>{
         if(type=='button'){
