@@ -83,7 +83,7 @@ export default function Login(){
             type="submit" >Login</Button>
            </div>
            <p className="self-center">no account? <Link to="/signup"><span className="text-blue-700">signup</span></Link></p>
-            <ThirdPartyLogin />
+            <ThirdPartyLogin ariaLabel="google-login" />
             { error.error && <p className=" text-center text-sm text-red-500">{error.message}</p>}
         </form>
     </div>

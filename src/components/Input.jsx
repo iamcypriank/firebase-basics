@@ -5,9 +5,10 @@ export default function Input({label, type, required=false, onChange, value }){
     className="flex flex-col">
     <label 
     className="text-sm font-bold"
-    htmlFor="">{label}</label>
+    htmlFor={label}>{label}</label>
     <input 
     className="p-2 bg-gray-200 rounded-sm outline-none focus:bg-blue-100"
+    id={label}
     onChange={onChange}
     value={value}
     type={type} required={required}  />

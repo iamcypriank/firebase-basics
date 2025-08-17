@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button Component Test Cases :  > button is rendering 1`] = `
+<div>
+  <button
+    class=""
+  />
+</div>
+`;

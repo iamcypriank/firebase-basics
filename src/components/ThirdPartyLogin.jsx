@@ -29,6 +29,7 @@ export default function ThirdPartyLogin(){
         </div>
        
             <Button
+            ariaLabel="google-login"
             variant="thirdPartyLoginButton"
             type="button"
             onClick={handleGoogleLogin}
