@@ -50,7 +50,7 @@ export default function Login(){
             e.preventDefault();
             handleSignin();
         }}
-        className="flex flex-col gap-4 p-4 py-10 w-[300px] shadow-[_0_0_10px_0_#E8E8E8] rounded-xl">
+        className="flex flex-col gap-4 p-4 py-10 w-[300px] shadow-[_0_0_10px_0_#0A1D3B] rounded-xl">
              <h1 
             className="font-bold text-center">Firebase basics</h1>
 

@@ -1,7 +1,9 @@
-html, body {
-  min-height: 100vh;
-  margin: 0;
+@import "tailwindcss";
+
+
+
+
+@custom-variant dark (&:where(.dark, .dark *));
+@theme{
+  --color-dark: #030712;
 }
-
-@import "tailwindcss"
-
